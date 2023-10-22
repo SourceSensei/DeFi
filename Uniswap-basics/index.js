@@ -9,8 +9,7 @@ const {
 } = require("@uniswap/sdk");
 const ethers = require("ethers");
 
-const url =
-  "https://eth-mainnet.g.alchemy.com/v2/sf13J2LrOeqfqJ1wu1un8k6A8RJdqAR_";
+const url = "";
 const customHttpProvider = new ethers.providers.JsonRpcProvider(url);
 
 const chainId = ChainId.MAINNET;
